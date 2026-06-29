@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>M. Hamza Khan — Senior Software Engineer</title>
+<meta name="description" content="Portfolio of M. Hamza Khan — Senior Software Engineer specializing in .NET Core, Angular, WPF, and microservices architecture.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NOISE / GRID BACKDROP ============ -->
+<div class="grid-backdrop" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">
+      <span class="nav-logo-bracket">&lt;</span>HK<span class="nav-logo-bracket">/&gt;</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="#stack" data-num="01">Stack</a>
+      <a href="#experience" data-num="02">Experience</a>
+      <a href="#projects" data-num="03">Projects</a>
+      <a href="#flagship" data-num="04">HMS</a>
+      <a href="#education" data-num="05">Education</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="hero-inner">
+
+    <div class="hero-eyebrow">
+      <span class="dot-blink"></span>
+      <span class="mono">SYSTEM.STATUS — AVAILABLE FOR ENGAGEMENTS</span>
+    </div>
+
+    <h1 class="hero-title">
+      <span class="hero-title-line">M. Hamza Khan</span>
+    </h1>
+
+    <p class="hero-role">Senior Software Engineer — Enterprise Systems &amp; Architecture</p>
+
+    <p class="hero-desc">
+      I design and build the backend logic, data models, and module architecture that enterprise software
+      runs on — from hospital management systems to ERP and inventory platforms. 5+ years across
+      .NET&nbsp;Core, Angular, and WPF, shipping production systems for clients in Pakistan, Canada, and the United States.
+    </p>
+
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+    </div>
+
+    <!-- SCHEMA DIAGRAM — signature element -->
+    <div class="schema" id="schemaDiagram">
+      <svg viewBox="0 0 960 280" class="schema-svg" id="schemaSvg" preserveAspectRatio="xMidYMid meet">
+        <!-- connector lines drawn first, animated via stroke-dashoffset -->
+        <g class="schema-lines" stroke="currentColor" fill="none">
+          <path class="line line-1" d="M 480 80 L 480 130" />
+          <path class="line line-2" d="M 480 130 L 200 175" />
+          <path class="line line-3" d="M 480 130 L 480 175" />
+          <path class="line line-4" d="M 480 130 L 760 175" />
+          <path class="line line-5" d="M 200 215 L 200 175" />
+          <path class="line line-6" d="M 480 215 L 480 175" />
+          <path class="line line-7" d="M 760 215 L 760 175" />
+        </g>
+
+        <!-- root node -->
+        <g class="node node-root">
+          <rect x="380" y="40" width="200" height="44" rx="6"></rect>
+          <text x="480" y="67" text-anchor="middle" class="node-label mono">Hamza.Khan</text>
+        </g>
+
+        <!-- role node -->
+        <g class="node node-role">
+          <rect x="395" y="130" width="170" height="40" rx="6"></rect>
+          <text x="480" y="155" text-anchor="middle" class="node-label mono">SrSoftwareEngineer</text>
+        </g>
+
+        <!-- three stack nodes -->
+        <g class="node node-leaf" data-leaf="1">
+          <rect x="120" y="175" width="160" height="40" rx="6"></rect>
+          <text x="200" y="200" text-anchor="middle" class="node-label mono">.NET_Core / C#</text>
+        </g>
+        <g class="node node-leaf" data-leaf="2">
+          <rect x="400" y="175" width="160" height="40" rx="6"></rect>
+          <text x="480" y="200" text-anchor="middle" class="node-label mono">Angular</text>
+        </g>
+        <g class="node node-leaf" data-leaf="3">
+          <rect x="680" y="175" width="160" height="40" rx="6"></rect>
+          <text x="760" y="200" text-anchor="middle" class="node-label mono">WPF / Microservices</text>
+        </g>
+      </svg>
+    </div>
+
+  </div>
+
+  <div class="hero-scroll-cue mono">SCROLL<span class="cue-line"></span></div>
+</header>
+
+<main>
+
+<!-- ============ STACK / SKILLS ============ -->
+<section class="section stack-section" id="stack">
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="eyebrow mono">01 — STACK.MANIFEST</span>
+      <h2>What I build with</h2>
+    </div>
+
+    <div class="stack-grid">
+
+      <div class="stack-card">
+        <div class="stack-card-head">
+          <span class="mono stack-tag">core</span>
+          <h3>Languages &amp; Frameworks</h3>
+        </div>
+        <ul class="stack-list">
+          <li>C#, JavaScript, HTML/CSS</li>
+          <li>.NET Core, ASP.NET Core MVC</li>
+          <li>Angular, WPF</li>
+          <li>Entity Framework, Dapper</li>
+          <li>Bootstrap, jQuery, AJAX</li>
+          <li>RabbitMQ</li>
+        </ul>
+      </div>
+
+      <div class="stack-card">
+        <div class="stack-card-head">
+          <span class="mono stack-tag">data</span>
+          <h3>Databases</h3>
+        </div>
+        <ul class="stack-list">
+          <li>SQL Server</li>
+          <li>Oracle</li>
+          <li>MySQL</li>
+          <li>NoSQL</li>
+        </ul>
+      </div>
+
+      <div class="stack-card">
+        <div class="stack-card-head">
+          <span class="mono stack-tag">arch</span>
+          <h3>Architecture &amp; Patterns</h3>
+        </div>
+        <ul class="stack-list">
+          <li>Microservices</li>
+          <li>N-Tier Architecture</li>
+          <li>Repository Pattern</li>
+          <li>Dependency Injection</li>
+        </ul>
+      </div>
+
+      <div class="stack-card">
+        <div class="stack-card-head">
+          <span class="mono stack-tag">api</span>
+          <h3>APIs &amp; Integration</h3>
+        </div>
+        <ul class="stack-list">
+          <li>REST APIs</li>
+          <li>SOAP Services</li>
+          <li>gRPC</li>
+          <li>Third-party API wrappers</li>
+        </ul>
+      </div>
+
+      <div class="stack-card">
+        <div class="stack-card-head">
+          <span class="mono stack-tag">ops</span>
+          <h3>Version Control</h3>
+        </div>
+        <ul class="stack-list">
+          <li>GitHub</li>
+          <li>GitLab</li>
+          <li>Azure DevOps</li>
+        </ul>
+      </div>
+
+      <div class="stack-card stack-card-accent">
+        <div class="stack-card-head">
+          <span class="mono stack-tag">5+</span>
+          <h3>Years in production</h3>
+        </div>
+        <p class="stack-accent-text">Across healthcare, logistics, e-commerce, and ERP systems — for clients in Pakistan, Canada, and the United States.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE TIMELINE ============ -->
+<section class="section experience-section" id="experience">
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="eyebrow mono">02 — EXEC.LOG</span>
+      <h2>Where I've worked</h2>
+    </div>
+
+    <div class="timeline">
+
+      <div class="tl-row">
+        <div class="tl-marker">
+          <span class="tl-dot tl-dot-active"></span>
+          <span class="tl-connector"></span>
+        </div>
+        <div class="tl-content">
+          <div class="tl-dates mono">AUG 2025 — PRESENT</div>
+          <h3>Sr. Software Engineer</h3>
+          <div class="tl-company">Arcana Info</div>
+          <p>Designing and building maintainable systems with .NET Core (C#) and Angular for healthcare research
+            workflows. Producing technical documentation and architectural blueprints for system integration,
+            testing, and deployment — while exploring emerging tools to strengthen solution capabilities.</p>
+        </div>
+      </div>
+
+      <div class="tl-row">
+        <div class="tl-marker">
+          <span class="tl-dot"></span>
+          <span class="tl-connector"></span>
+        </div>
+        <div class="tl-content">
+          <div class="tl-dates mono">APR 2024 — AUG 2025</div>
+          <h3>Sr. Software Engineer</h3>
+          <div class="tl-company">Creatic Solution (Pvt) Ltd</div>
+          <p>Wrote clean, scalable code across .NET (C#), Angular, and WPF. Reviewed and optimized existing
+            codebases for performance, and contributed across every phase of the SDLC — from architecture
+            design through deployment.</p>
+        </div>
+      </div>
+
+      <div class="tl-row">
+        <div class="tl-marker">
+          <span class="tl-dot"></span>
+          <span class="tl-connector"></span>
+        </div>
+        <div class="tl-content">
+          <div class="tl-dates mono">APR 2023 — APR 2024</div>
+          <h3>Sr. Software Engineer</h3>
+          <div class="tl-company">Leopards Courier Services (Pvt) Ltd.</div>
+          <p>Developed technical specifications and architecture designs for ERP-scale logistics applications.
+            Revised, refactored, and debugged systems to improve reliability, and investigated new technologies
+            where they could move the platform forward.</p>
+        </div>
+      </div>
+
+      <div class="tl-row">
+        <div class="tl-marker">
+          <span class="tl-dot"></span>
+          <span class="tl-connector"></span>
+        </div>
+        <div class="tl-content">
+          <div class="tl-dates mono">APR 2021 — MAR 2023</div>
+          <h3>Software Engineer</h3>
+          <div class="tl-company">Cloud Peanuts LLC</div>
+          <p>Built user interfaces, server-side logic, and backend API integrations. Designed and optimized
+            database schemas using MySQL, ADO.NET, and Entity Framework — while overseeing junior developers
+            and coordinating with designers on UI/UX delivery.</p>
+        </div>
+      </div>
+
+      <div class="tl-row">
+        <div class="tl-marker">
+          <span class="tl-dot"></span>
+        </div>
+        <div class="tl-content">
+          <div class="tl-dates mono">NOV 2019 — DEC 2020</div>
+          <h3>Software Developer</h3>
+          <div class="tl-company">Viftech Solution (Pvt) Ltd. — Korangi Industrial Area</div>
+          <p>Developed and maintained software applications using the .NET framework, writing clean and
+            scalable C# across a four-person team. Owned full-cycle delivery — requirement gathering, design,
+            development, testing, deployment — while integrating third-party APIs and resolving issues reported
+            by stakeholders. Shipped four client projects detailed below.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section projects-section" id="projects">
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="eyebrow mono">03 — MODULES.INSTALLED</span>
+      <h2>Project gallery</h2>
+      <p class="section-sub">Every project below shipped to a real client — across hospitals, legal platforms, logistics, and e-commerce.</p>
+    </div>
+
+    <div class="filter-bar mono" id="filterBar">
+      <button class="filter-btn active" data-filter="all">all</button>
+      <button class="filter-btn" data-filter="healthcare">healthcare</button>
+      <button class="filter-btn" data-filter="erp">erp / ops</button>
+      <button class="filter-btn" data-filter="web">web platforms</button>
+      <button class="filter-btn" data-filter="desktop">desktop</button>
+    </div>
+
+    <div class="project-grid" id="projectGrid">
+
+      <!-- MedEx -->
+      <article class="project-card" data-cat="healthcare">
+        <div class="project-card-top">
+          <span class="mono project-id">MOD-01</span>
+          <span class="project-status status-live">Production</span>
+        </div>
+        <h3>MedEx — Advanced Hospital Management System</h3>
+        <p class="project-org">Arcana Info</p>
+        <p class="project-desc">Comprehensive web-based HMS covering patient registration, doctor management,
+          appointments, prescriptions, pharmacy, and billing — with seamless coordination across departments.</p>
+        <div class="project-tags mono">
+          <span>.NET Core 9.0</span><span>Entity Framework</span><span>SQL Server</span><span>Angular</span>
+        </div>
+      </article>
+
+      <!-- IRB Portal -->
+      <article class="project-card" data-cat="healthcare">
+        <div class="project-card-top">
+          <span class="mono project-id">MOD-02</span>
+          <span class="project-status status-live">Production</span>
+        </div>
+        <h3>IRB Portal — Indus Hospital</h3>
+        <p class="project-org">Arcana Info</p>
+        <p class="project-desc">Research study submission portal for Indus Hospital. Doctors submit studies,
+          admins review and approve, and IRB reviewers guide researchers through every step of the process.</p>
+        <div class="project-tags mono">
+          <span>.NET Core 9.0</span><span>Entity Framework</span><span>Oracle</span><span>Angular</span>
+        </div>
+      </article>
+
+      <!-- Leopards ERP -->
+      <article class="project-card" data-cat="erp">
+        <div class="project-card-top">
+          <span class="mono project-id">MOD-03</span>
+          <span class="project-status status-live">Production</span>
+        </div>
+        <h3>Leopards ERP — HR, Finance &amp; Accounts</h3>
+        <p class="project-org">Leopards Courier Services (Pvt) Ltd.</p>
+        <p class="project-desc">Full-scale ERP system covering HR, accounts, debit/credit notes, ledgers,
+          expenses, assets, customer support, finance, salary processing, and voucher printing.</p>
+        <div class="project-tags mono">
+          <span>.NET</span><span>Dapper</span><span>SQL Server</span><span>jQuery</span>
+        </div>
+        <a class="project-link" href="https://leopardsweb.com/erp" target="_blank" rel="noopener">leopardsweb.com/erp ↗</a>
+      </article>
+
+      <!-- API Wrappers -->
+      <article class="project-card" data-cat="erp">
+        <div class="project-card-top">
+          <span class="mono project-id">MOD-04</span>
+          <span class="project-status status-live">Production</span>
+        </div>
+        <h3>API Wrappers — SMS &amp; Payment Integration</h3>
+        <p class="project-org">Leopards Courier Services (Pvt) Ltd.</p>
+        <p class="project-desc">Integration wrappers for Zong SMS, Telenor SMS (OTP / short codes), and the
+          OneLink payment gateway — built for use inside a Retail Management System.</p>
+        <div class="project-tags mono">
+          <span>.NET Core</span><span>Entity Framework</span><span>SQL Server</span>
+        </div>
+      </article>
+
+      <!-- ETL -->
+      <article class="project-card" data-cat="erp">
+        <div class="project-card-top">
+          <span class="mono project-id">MOD-05</span>
+          <span class="project-status status-live">Production</span>
+        </div>
+        <h3>ETL Process — Data Transformation</h3>
+        <p class="project-org">Leopards Courier Services (Pvt) Ltd.</p>
+        <p class="project-desc">Designed and built a complete ETL pipeline for data transformation and migration —
+          moving from a single source server to multiple destination environments.</p>
+        <div class="project-tags mono">
+          <span>C#</span><span>Entity Framework</span><span>ADO.NET</span><span>SQL Server</span>
+        </div>
+      </article>
+
+      <!-- Digital School Suite -->
+      <article class="project-card" data-cat="erp">
+        <div class="project-card-top">
+          <span class="mono project-id">MOD-06</span>
+          <span class="project-status status-live">Production</span>
+        </div>
+        <h3>Digital School Suite — School ERP</h3>
+        <p class="project-org">Vbswebs — Vital Business System</p>
+        <p class="project-desc">Mini ERP managing students, staff, ledgers, expenses, accounts, fee vouchers,
+          timetables, class schedules, and assessments — with PDF reporting built in.</p>
+        <div class="project-tags mono">
+          <span>.NET</span><span>Entity Framework</span><span>Angular</span><span>Bootstrap</span>
+        </div>
+        <a class="project-link" href="https://vbswebs.com/dss" target="_blank" rel="noopener">vbswebs.com/dss ↗</a>
+      </article>
+
+      <!-- Warehouse Module -->
+      <article class="project-card" data-cat="erp">
+        <div class="project-card-top">
+          <span class="mono project-id">MOD-07</span>
+          <span class="project-status status-live">Production</span>
+        </div>
+        <h3>Warehouse Module — Amazon Order Processing</h3>
+        <p class="project-org">Cloud Peanuts LLC</p>
+        <p class="project-desc">Cloud-based system that places Amazon orders via API, tracks shipment status,
+          manages out-of-stock items, and reports on profit/loss alongside live inventory levels.</p>
+        <div class="project-tags mono">
+          <span>Angular</span><span>.NET</span><span>Entity Framework</span><span>SQL Server</span><span>Crystal Reports</span>
+        </div>
+        <a class="project-link" href="https://wrmodule.com" target="_blank" rel="noopener">wrmodule.com ↗</a>
+      </article>
+
+      <!-- BraunAbility -->
+      <article class="project-card" data-cat="erp">
+        <div class="project-card-top">
+          <span class="mono project-id">MOD-08</span>
+          <span class="project-status status-live">Production</span>
+        </div>
+        <h3>BraunAbility — Inventory Management System</h3>
+        <p class="project-org">Viftech Solution (Pvt) Ltd. — US-based client</p>
+        <p class="project-desc">A four-person team build for a US-based client: a cloud inventory and order
+          processing system tracking complete vehicle information, with order tracking and profit/loss reporting
+          built in for supplier management workflows.</p>
+        <div class="project-tags mono">
+          <span>.NET</span><span>Entity Framework</span><span>SQL Server</span><span>LINQ</span><span>Crystal Reports</span>
+        </div>
+        <a class="project-link" href="https://wavvalues.braunability.com" target="_blank" rel="noopener">wavvalues.braunability.com ↗</a>
+      </article>
+
+      <!-- TicketTamer -->
+      <article class="project-card" data-cat="web">
+        <div class="project-card-top">
+          <span class="mono project-id">MOD-09</span>
+          <span class="project-status status-live">Production</span>
+        </div>
+        <h3>TicketTamer — Legal Case Dashboard</h3>
+        <p class="project-org">Viftech Solution (Pvt) Ltd. — US-based client</p>
+        <p class="project-desc">Dashboard for a US-based legal ticket-fixing platform, where users register
+          cases and connect with lawyers across their registered jurisdictions.</p>
+        <div class="project-tags mono">
+          <span>.NET</span><span>Entity Framework</span><span>React.js</span><span>Bootstrap</span>
+        </div>
+        <a class="project-link" href="https://dashboard.tickettamer.com" target="_blank" rel="noopener">dashboard.tickettamer.com ↗</a>
+      </article>
+
+      <!-- Homii -->
+      <article class="project-card" data-cat="web">
+        <div class="project-card-top">
+          <span class="mono project-id">MOD-10</span>
+          <span class="project-status status-live">Production</span>
+        </div>
+        <h3>Homii — Online Home Finder</h3>
+        <p class="project-org">Viftech Solution (Pvt) Ltd. — Canadian client</p>
+        <p class="project-desc">Property listing platform built for a Canadian client to make finding a home for
+          rent or sale easier — with intuitive search and a full listing-management back end for owners.</p>
+        <div class="project-tags mono">
+          <span>.NET</span><span>Entity Framework</span><span>React.js</span><span>Bootstrap</span>
+        </div>
+        <a class="project-link" href="https://homii.ca" target="_blank" rel="noopener">homii.ca ↗</a>
+      </article>
+
+      <!-- Time Sheet -->
+      <article class="project-card" data-cat="web">
+        <div class="project-card-top">
+          <span class="mono project-id">MOD-11</span>
+          <span class="project-status status-live">Production</span>
+        </div>
+        <h3>Time Sheet — Time In &amp; Out App</h3>
+        <p class="project-org">Viftech Solution (Pvt) Ltd. — Canadian client</p>
+        <p class="project-desc">Employee time-tracking application built for a Canadian client, recording
+          time-in / time-out attendance and totaling exactly how long each employee spent on a given task.</p>
+        <div class="project-tags mono">
+          <span>.NET</span><span>Entity Framework</span><span>Angular</span><span>Bootstrap</span>
+        </div>
+        <a class="project-link" href="https://ivstimesheet.ca" target="_blank" rel="noopener">ivstimesheet.ca ↗</a>
+      </article>
+
+      <!-- Custom Curve -->
+      <article class="project-card" data-cat="desktop">
+        <div class="project-card-top">
+          <span class="mono project-id">MOD-12</span>
+          <span class="project-status status-live">Production</span>
+        </div>
+        <h3>Custom Curve — Desktop App for Gamers</h3>
+        <p class="project-org">Creatic Solutions</p>
+        <p class="project-desc">Mouse sensitivity configuration tool with a real-time hand-speed visualization
+          (mouse-o-meter). Changes apply at the raw-input level, so they work across every game and application.</p>
+        <div class="project-tags mono">
+          <span>.NET Core 8.0</span><span>Entity Framework</span><span>NoSQL</span><span>Angular</span><span>WPF</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ FLAGSHIP: HMS ============ -->
+<section class="section flagship-section" id="flagship">
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="eyebrow mono">04 — CURRENT.BUILD</span>
+      <h2>Flagship project</h2>
+    </div>
+
+    <div class="flagship-card">
+      <div class="flagship-top">
+        <div>
+          <span class="mono flagship-tag">IN DEVELOPMENT</span>
+          <h3>Modular Hospital Management System</h3>
+          <p class="flagship-sub">An offline-first HMS built on ASP.NET Core MVC 8 — architected for single-server clinic deployments across Karachi.</p>
+        </div>
+      </div>
+
+      <div class="flagship-grid">
+        <div class="flagship-block">
+          <span class="mono flagship-block-label">// modules shipped</span>
+          <ul class="flagship-list">
+            <li>PathLink — Laboratory Information System</li>
+            <li>Pharmacy POS</li>
+            <li>IPD ward management</li>
+            <li>Admission &amp; discharge workflows</li>
+          </ul>
+        </div>
+
+        <div class="flagship-block">
+          <span class="mono flagship-block-label">// architecture</span>
+          <ul class="flagship-list">
+            <li>Hybrid licensing — DB feature flags + subscription plans</li>
+            <li><span class="mono">Modules</span>, <span class="mono">Tenants</span>, <span class="mono">TenantModules</span>, <span class="mono">TenantInvoices</span> schema</li>
+            <li>Offline-first LAN sync via EF Core <span class="mono">SaveChangesInterceptor</span></li>
+            <li><span class="mono">Channel</span>-based background sync worker, 30s retry poller</li>
+            <li><span class="mono">GlobalId</span> (GUID) idempotency for conflict-free sync</li>
+          </ul>
+        </div>
+
+        <div class="flagship-block">
+          <span class="mono flagship-block-label">// deployment model</span>
+          <p class="flagship-text">One server PC per clinic running IIS + SQL Server, serving 2–3 client PCs over LAN,
+            with local-to-cloud one-way sync. Targeting hospitals across the Landhi–Korangi area as pilot clients.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section class="section education-section" id="education">
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="eyebrow mono">05 — FOUNDATION</span>
+      <h2>Education</h2>
+    </div>
+
+    <div class="edu-grid">
+      <div class="edu-card">
+        <span class="mono edu-dates">2016 — 2019</span>
+        <h3>Advanced Diploma in Software Engineering</h3>
+        <p>Aptech Computer Education, Pakistan</p>
+      </div>
+      <div class="edu-card">
+        <span class="mono edu-dates">2016 — 2018</span>
+        <h3>Intermediate in Commerce</h3>
+        <p>Govt. Degree Science &amp; Commerce College</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact-section" id="contact">
+  <div class="section-inner">
+    <div class="contact-box">
+      <span class="eyebrow mono">06 — CONNECT</span>
+      <h2>Let's build something reliable.</h2>
+      <p class="contact-sub">Available for senior engineering roles, contract work, and architecture consulting.</p>
+
+      <div class="contact-links">
+        <a href="mailto:hamxa.qaimkhani@gmail.com" class="contact-link">
+          <span class="mono contact-link-label">EMAIL</span>
+          <span class="contact-link-value">hamxa.qaimkhani@gmail.com</span>
+        </a>
+        <a href="tel:+923214863984" class="contact-link">
+          <span class="mono contact-link-label">PHONE</span>
+          <span class="contact-link-value">+92 321-4863984</span>
+        </a>
+        <div class="contact-link">
+          <span class="mono contact-link-label">LOCATION</span>
+          <span class="contact-link-value">Karachi, Pakistan</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span class="mono">© 2026 M. Hamza Khan</span>
+    <span class="mono footer-right">BUILT WITH .NET MINDSET, SHIPPED AS HTML</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
